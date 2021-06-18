@@ -52,9 +52,7 @@ class Player {
     database.ref(playerIndex).update({
       positionX: this.positionX,
       positionY: this.positionY,
-      rank: this.rank,
-      score: this.score
-    });
+     });
   }
 
   //Bp
